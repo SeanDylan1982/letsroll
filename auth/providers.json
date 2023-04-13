@@ -14,5 +14,17 @@
             "runResetFunction": true
         },
         "disabled": false
+    },
+    "oauth2-google": {
+        "name": "oauth2-google",
+        "type": "oauth2-google",
+        "config": {
+            "clientId": "106393264297616094789",
+            "openId": true
+        },
+        "secret_config": {
+            "clientSecret": "Rolland"
+        },
+        "disabled": false
     }
 }
