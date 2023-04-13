@@ -11,13 +11,13 @@ export default class extends React.Component {
         totalSlides={7}
       >
         <Slider>
-          <Slide index={0}> <img src="../../original/img/mural.png"></img> </Slide>
-          <Slide index={0}> <img src="../../original/img/nbc-4.png"></img> </Slide>
-          <Slide index={1}> <img src="../../original/img/nbc-3.png"></img> </Slide>
-          <Slide index={2}> <img src="../../original/img/nbc-2.png"></img> </Slide>
-          <Slide index={0}> <img src="../../original/img/modderfontein-trips.png"></img> </Slide>
-          <Slide index={0}> <img src="../../original/img/nbc-1.png"></img> </Slide>
-          <Slide index={0}> <img src="../../original/img/nbc-5.png"></img> </Slide>
+          <Slide index={0}> <img src="../../original/img/mural.png" alt=""></img> </Slide>
+          <Slide index={0}> <img src="../../original/img/nbc-4.png" alt=""></img> </Slide>
+          <Slide index={1}> <img src="../../original/img/nbc-3.png" alt=""></img> </Slide>
+          <Slide index={2}> <img src="../../original/img/nbc-2.png" alt=""></img> </Slide>
+          <Slide index={0}> <img src="../../original/img/modderfontein-trips.png" alt=""></img> </Slide>
+          <Slide index={0}> <img src="../../original/img/nbc-1.png" alt=""></img> </Slide>
+          <Slide index={0}> <img src="../../original/img/nbc-5.png" alt=""></img> </Slide>
 
         </Slider>
         <ButtonBack>Back</ButtonBack>
