@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "64384c1c480d8da9b7e13a44"
+  },
+  "blocked": [
+    ""
+  ],
+  "club": "Northmead Bowls Club",
+  "district": "Ekurhuleni",
+  "email": "sean@seanpatterson.co.za",
+  "friends": [
+    ""
+  ],
+  "honours": [
+    ""
+  ],
+  "password": "LL0921jj",
+  "position": "lead",
+  "posts": [
+    ""
+  ],
+  "profileImg": "profile 1.png",
+  "profileUrl": "/profile/sean",
+  "reputation": "",
+  "timestamp": {
+    "$timestamp": {
+      "t": 1681411547,
+      "i": 1
+    }
+  },
+  "username": "Sean"
+}]
