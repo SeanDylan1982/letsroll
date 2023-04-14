@@ -2,9 +2,9 @@ html {
   font-family: 'Asap', 'Poppins', sans-serif;
   display: flexbox;
   flex-direction: column;
-  --color-primary: #10d6b2;
-  --color-primary-dark: #0aaf91;
-  --color-seconday: #3d49b4;
+  --color-primary: #298135;
+  --color-primary-dark: #1b9c2d;
+  --color-seconday: #298135;
   --color-error: #cc3333;
   --color-success: #4bb544;
   --border-radius: 10px;

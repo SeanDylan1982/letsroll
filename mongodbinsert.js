@@ -12,19 +12,18 @@ async function connectToDatabase() {
     // Connect the client to the server
     await client.connect();
     console.log("Connected successfully to server");
-  } catch {
+  } catch (error) {
+    console.log("Error connecting to database");
+  }
     // Select the database
     const db = client.db("letsrollusersdb");
     const collection = client.db("letsrolluserscollection");
-  }
-  return db, collection;
+    
+    connectToDatabase(db).getCollection(collection).insertOne({
+          email: "userEmail", password: "password",
+        }
+      ).redirect('./src/pages/SignIn/SignIn.js');
+  return db;
 };
 
 module.exports = connectToDatabase;
-// Create a new document in the collection.
-connectToDatabase(db).getCollection(collection)
-  .insertOne(
-    {
-      email: "userEmail", password: "password",
-    }
-  ).redirect('./src/pages/SignIn/SignIn.js');
