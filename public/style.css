@@ -7,7 +7,7 @@ html {
   --color-seconday: #3d49b4;
   --color-error: #cc3333;
   --color-success: #4bb544;
-  --border-radius: 4px;
+  --border-radius: 10px;
 }
 
 header {
@@ -133,7 +133,7 @@ td {
 }
 
 .light {
-  background-color: #c2c2c2;
+  background-color: #f1f1f1;
 }
 
 #club-details {
@@ -172,7 +172,7 @@ td {
 
 #form-control label {
   width: 100%;
-  background-color: #c2c2c2;
+  background-color: #f1f1f1;
 }
 
 #form-control h2 {
@@ -616,7 +616,7 @@ html {
   border-radius: 10px;
 }
 
-#login-form {
+/* #login-form {
   position: relative;
   display: grid;
   margin: 30%;
@@ -632,7 +632,7 @@ html {
   width: 500px;
   height: 500px;
   justify-content: center;
-}
+} */
 
 .form-container {
   position: absolute;
@@ -757,12 +757,12 @@ html {
 /* For mobile phones */
 @media only screen and (max-width: 480px) {
   .carousel {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
   img {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
   }
 }
 
@@ -791,8 +791,8 @@ html {
     position: relative;
     display: flexbox;
     flex-direction: row;
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
   }
 }
 
