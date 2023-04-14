@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
-  {
     "properties": {
         "_id": {
             "bsonType": "objectId"
@@ -55,15 +54,13 @@ const userSchema = new mongoose.Schema({
             "bsonType": "string"
         },
         "timestamp": {
-            "bsonType": "timestamp"
+            "bsonType": "string"
         },
         "username": {
             "bsonType": "string"
         }
     },
-    "title": "letsrolluserscollection"
-}
-
+    "title": "User"
 });
 
 const User = mongoose.model('User', userSchema);

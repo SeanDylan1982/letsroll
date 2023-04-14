@@ -1,3 +1,5 @@
+const netlifyIdentity = require('netlify-identity-widget')
+
 // Open the modal
 netlifyIdentity.open();
 
@@ -31,7 +33,7 @@ netlifyIdentity.refresh().then((jwt)=>console.log(jwt))
 // Change language
 netlifyIdentity.setLocale('en');
 
-const netlifyIdentity = require('netlify-identity-widget');
+// const netlifyIdentity = require('netlify-identity-widget');
 
 netlifyIdentity.init({
   container: '#netlify-modal', // defaults to document.body
