@@ -44,7 +44,7 @@ const SignIn = ({ redirectTo = '/' }) => {
     <Page pageTitle={intl.formatMessage({ id: 'sign_in' })}>
       <CustomPaper elevation={6}>
         <div
-          sytle={{
+          style={{
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
@@ -56,7 +56,8 @@ const SignIn = ({ redirectTo = '/' }) => {
             {intl.formatMessage({ id: 'sign_in' })}
           </Typography>
           <form
-            sytle={{ marginTop: theme.spacing(1) }}
+            name={SignIn}
+            style={{ marginTop: theme.spacing(1) }}
             onSubmit={handleSubmit}
             noValidate
           >

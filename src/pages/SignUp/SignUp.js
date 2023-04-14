@@ -65,6 +65,7 @@ const SignUp = ({ redirectTo = '/' }) => {
             {intl.formatMessage({ id: 'sign_up', defaultMessage: 'Sign up' })}
           </Typography>
           <form
+            name={SignUp}
             style={{ marginTop: theme.spacing(1) }}
             onSubmit={handleSubmit}
             noValidate
