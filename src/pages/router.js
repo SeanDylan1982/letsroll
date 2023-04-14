@@ -1,4 +1,7 @@
 const { auth } = require('express-openid-connect');
+const { client } = require('../../mongodb');
+const express = require('express');
+const app = express();
 
 const config = {
   authRequired: false,
@@ -15,4 +18,9 @@ app.use(auth(config));
 // req.isAuthenticated is provided from the auth router
 app.get('/', (req, res) => {
   res.send(req.oidc.isAuthenticated() ? 'Logged in' : 'Logged out');
+});
+
+app.get('/login', (req, res) => {
+  client.connect();
+  res.render('login');
 });
