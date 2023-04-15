@@ -21,6 +21,7 @@
     "mdb-react-ui-kit": "^6.0.0",
     "mongodb": "^5.2.0",
     "mongoose": "^7.0.3",
+    "mysql": "^2.18.1",
     "netlify-identity-widget": "^1.9.2",
     "notistack": "^2.0.8",
     "popper": "^1.0.1",
