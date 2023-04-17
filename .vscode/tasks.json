@@ -36,6 +36,33 @@
         "${workspaceFolder}/DotNetSQL/DotNetSQL.csproj"
       ],
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "clean",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "clean",
+        "${workspaceFolder}/DotNetSQL",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "publish-release",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "publish",
+        "${workspaceFolder}/DotNetSQL",
+        "--configuration",
+        "Release",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile",
+      "dependsOn": "clean"
     }
   ]
 }
