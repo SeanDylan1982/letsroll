@@ -2,14 +2,18 @@ const express = require('express');
 const { requiresAuth } = require('express-openid-connect');
 const { MongoClient } = require('mongodb');
 const { redirect } = require('react-router-dom');
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb+srv://admin:PX8UhUlBwSpPQkxM@letsrollcluster.e9fzfgl.mongodb.net/letsrollusersdb');
+
 // Connection URI
 const uri = 'mongodb+srv://admin:PX8UhUlBwSpPQkxM@letsrollcluster.mongodb.net/letsrollusersdb?retryWrites=true&w=majority';
 // Create a new MongoClient
 const client = new MongoClient(uri);
 
-const app = express();
+const app = express(); 
 
-app.get('/signup', requiresAuth(), (req, res) => {
+app.post('/signup', requiresAuth(), (req, res) => {
   const { email, password } = req.body;
   res.send(JSON.stringify(req.oidc.user));
 });
@@ -31,4 +35,13 @@ async function connectToDatabase() {
         }
       ).redirect('./src/pages/SignIn/SignIn.js');
   return db;
+};
+
+app.post('/login', requiresAuth(), (req, res) => {
+  const { email, password } = req.body;
+  res.send(JSON.stringify(req.oidc.user));
+});
+
+module.exports = () => {
+  console.log('Connected to MongoDB')
 };

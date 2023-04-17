@@ -1,4 +1,4 @@
-import { Button, TextField, Typography } from '@mui/material'
+import { Button, TextField, Typography } from '@mui/material' 
 import Page from 'material-ui-shell/lib/containers/Page'
 import React, { useState } from 'react'
 import { useAuth } from 'base-shell/lib/providers/Auth'
@@ -8,7 +8,7 @@ import { useMenu } from 'material-ui-shell/lib/providers/Menu'
 import { useTheme } from '@mui/material/styles'
 import CustomPaper from '../../components/CustomPaper'
 
-const SignUp = ({ redirectTo = '/' }) => {
+const SignUp = ({ redirectTo = '/home' }) => {
   const intl = useIntl()
   const navigate = useNavigate()
   const location = useLocation()

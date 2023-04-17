@@ -22,6 +22,7 @@
     "mongodb": "^5.2.0",
     "mongoose": "^7.0.3",
     "mysql": "^2.18.1",
+    "mysql-server": "^1.0.5",
     "netlify-identity-widget": "^1.9.2",
     "notistack": "^2.0.8",
     "popper": "^1.0.1",

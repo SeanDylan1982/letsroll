@@ -9,17 +9,9 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DotNetSQL
 build_property.RootNamespace = DotNetSQL
-<<<<<<< HEAD
-build_property.ProjectDir = c:\xampp\htdocs\letsroll\DotNetSQL\
+build_property.ProjectDir = C:\Users\seand\OneDrive\Documents\Github\react-most-wanted\letsroll\DotNetSQL\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\xampp\htdocs\letsroll\DotNetSQL
-=======
-build_property.ProjectDir = c:\Users\seand\OneDrive\Documents\Github\react-most-wanted\letsroll\DotNetSQL\
-build_property.RazorLangVersion = 7.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\seand\OneDrive\Documents\Github\react-most-wanted\letsroll\DotNetSQL
->>>>>>> ddaa9a69459b852713ed7dc7a8db6d1142b5df93
+build_property.MSBuildProjectDirectory = C:\Users\seand\OneDrive\Documents\Github\react-most-wanted\letsroll\DotNetSQL
 build_property._RazorSourceGeneratorDebug = 
