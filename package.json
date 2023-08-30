@@ -19,7 +19,7 @@
     "lp-react-virtualized-auto-sizer-react-18": "^1.0.7",
     "material-ui-shell": "^3.4.9",
     "mdb-react-ui-kit": "^6.0.0",
-    "mongodb": "^5.2.0",
+    "mongodb": "^5.8.0",
     "mongoose": "^7.0.3",
     "mysql": "^2.18.1",
     "mysql-server": "^1.0.5",
